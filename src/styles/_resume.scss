@@ -1,0 +1,35 @@
+.g {
+
+  &-size {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  &-color1 {
+    background-color: #fcb1a0;
+  }
+  &-color2 {
+    background-color: #afc7ff;
+  }
+  &-color3 {
+    background-color: #e4b0fc;
+  }
+  &-color4 {
+    background-color: #a4b0fc;
+  }
+  &-color5 {
+    background-color: #ff9fb5;
+  }
+  &-color6 {
+    background-color: #abf5cd;
+  }
+  &-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
