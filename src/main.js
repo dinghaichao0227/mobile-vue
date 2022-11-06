@@ -6,7 +6,7 @@ import 'lib-flexible/flexible';
 import '@/styles/main.scss';
 import './utils/rem';
 
-import jQuery from 'jquery'
+import jQuery from 'jquery';
 import 'bootstrap';
 
 import ElementUI from 'element-ui';
@@ -18,7 +18,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 
 Vue.config.productionTip = false;
 Vue.use(ElementUI);
-Vue.prototype.jQuery= jQuery;
+Vue.prototype.jQuery = jQuery;
 
 new Vue({
   router,
