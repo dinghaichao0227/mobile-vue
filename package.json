@@ -10,9 +10,11 @@
   "dependencies": {
     "amfe-flexible": "^2.2.1",
     "axios": "^0.26.1",
+    "bootstrap": "^3.4.1",
     "core-js": "^3.8.3",
     "dayjs": "^1.11.1",
     "element-ui": "^2.15.8",
+    "jquery": "^3.6.1",
     "lib-flexible": "^0.3.2",
     "mint-ui": "^2.2.13",
     "normalize.css": "^8.0.1",
