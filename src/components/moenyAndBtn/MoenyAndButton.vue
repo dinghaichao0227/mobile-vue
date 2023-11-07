@@ -1,6 +1,6 @@
 <template>
   <div class="g-padding moenyAndBtn">
-    <h2>$55.90</h2>
+    <h2 style="line-height: 20px; height: 30px">$55.90</h2>
     <span class="btn">Add to Cart</span>
   </div>
 </template>
@@ -28,7 +28,7 @@ export default {
     border-radius: 5px;
     color: #fff;
     text-align: center;
-    line-height: 35px;
+    line-height: 20px;
     cursor: pointer;
   }
 }

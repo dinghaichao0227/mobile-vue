@@ -1,22 +1,35 @@
 <template>
-  <div class="container-fluid">
+  <div class="container">
     <button type="button" class="btn btn-primary">测试按钮</button>
-    <div class="row">
-      <div class="col-lg-12">
-        <div class="swiper">轮播图</div>
-      </div>
-      <div class="col-sm-6 col-lg-3">
-        <div class="left">left</div>
-      </div>
-      <div class="col-sm-6 col-lg-3">
-        <div class="center">center</div>
-      </div>
-      <div class="col-sm-6 col-lg-3">
-        <div class="right">right</div>
-      </div>
-      <div class="col-sm-6 col-lg-3">
-        <div class="right">right</div>
-      </div>
+    <div class="row justify-content-md-center">
+    <div class="col col-lg-2">
+      1 of 3
+    </div>
+    <div class="col-md-auto">
+      Variable width content
+    </div>
+    <div class="col col-lg-2">
+      3 of 3
+    </div>
+  </div>
+    <!-- <div class="row"> -->
+      <!-- <div>
+        <div class="col-lg-12">
+          <div class="swiper">轮播图</div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="left">left</div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="center">center</div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="right">right</div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="right">right</div>
+        </div>
+      </div> -->
 
       <!-- <div class="col-md-5">.col-md-222</div> -->
       <!-- <div class="col-lg-5">.col-md-1111</div>
@@ -29,7 +42,7 @@
       <div class="col-md-2">.col-md-1</div>
       <div class="col-md-2">.col-md-1</div>
       <div class="col-md-2">.col-md-1</div> -->
-    </div>
+    <!-- </div> -->
     <!-- <div class="row">
       <div class="col-md-5">.col-md-8</div>
       <div class="col-md-5">.col-md-5</div>
@@ -52,6 +65,10 @@ export default {};
 </script>
 
 <style>
+
+.container-fluid {
+  /* width: 1200px; */
+}
 .col-md-3,
 .col-md-8,
 .col-md-6,

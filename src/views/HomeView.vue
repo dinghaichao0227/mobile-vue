@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import { tableColumn as tableColumns } from '@/components/config/TableColumn.js';
+import { tableColumns } from '@/components/config/TableColumn.js';
 
 export default {
   name: 'HomeView',
@@ -36,25 +36,30 @@ export default {
     return {
       value: new Date(),
       activeName: 'first',
-      tableColumns,
-      tableData: [],
-      // tableData: [{
-      //       date: '2016-05-02',
-      //       name: '王小虎',
-      //       address: '上海市普陀区金沙江路 1518 弄'
-      //     }, {
-      //       date: '2016-05-04',
-      //       name: '王小虎',
-      //       address: '上海市普陀区金沙江路 1517 弄'
-      //     }, {
-      //       date: '2016-05-01',
-      //       name: '王小虎',
-      //       address: '上海市普陀区金沙江路 1519 弄'
-      //     }, {
-      //       date: '2016-05-03',
-      //       name: '王小虎',
-      //       address: '上海市普陀区金沙江路 1516 弄'
-      //     }]
+      tableColumn: tableColumns,
+      // tableData: [],
+      tableData: [
+        {
+          date: '2016-05-02',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1518 弄',
+        },
+        {
+          date: '2016-05-04',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1517 弄',
+        },
+        {
+          date: '2016-05-01',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1519 弄',
+        },
+        {
+          date: '2016-05-03',
+          name: '王小虎',
+          address: '上海市普陀区金沙江路 1516 弄',
+        },
+      ],
     };
   },
   methods: {
